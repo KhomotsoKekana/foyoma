@@ -5,13 +5,13 @@ import { CalendarDateRangeIcon, ChartBarIcon, FaceFrownIcon, MapPinIcon, PhotoIc
 export default function PostInputs() {
   return (
     <div className='flex space-x-4 p-3'>
-      <div className='w-10 h-10 rounded-full overflow-hidden border border-gray-300 cursor-pointer'>
+      <div className='w-10 h-10 rounded-full overflow-hidden cursor-pointer'>
         <Image 
-          src="/assets/hacker.png" 
-          width={40}
-          height={40}
+          src="/assets/user.png" 
+          width={44}
+          height={44}
           alt="avatar"
-          className='object-cover w-full h-full'
+          // className='object-cover w-full h-full'
         />
       </div>
       <div className='w-full'>
